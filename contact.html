@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <style>
+        body { background-color: #fffaf0; margin: 0}
+        header{background-color: #4682b4; color: white; padding: 10px; }
+        nav { background-color: #b0e0e6; }
+        table { width: 100%; }
+        footer { background-color: #4682b4; color: white;}
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Contact Us</h1>
+        </center>
+    </header>
+    <nav>
+        <table>
+            <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="about.html">About</a></td>
+                <td><a href="courses.html">Courses</a></td>
+                <td><a href="contact.html">Contact</a></td>
+                <td><a href="gallery.html">Gallery</a></td>
+            </tr>
+        </table>
+    </nav>
+<main>
+        <section>
+            <h2><font color="#4682b4">Get in Touch</font></h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><font color="#4682b4">Personal Information</font></legend>
+                    <table width="100%">
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name" required></td>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Telephone:</label></td>
+                            <td><input type="tel" id="tel" name="tel" required></td>
+                            <td><label for="url">Website:</label></td>
+                            <td><input type="url" id="url" name="url"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend><font color="#4682b4">Account Information</font></legend>
+                    <table width="100%">
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" id="password" name="password" required></td>
+                            <td><label for="color">Favorite Color:</label></td>
+                            <td><input type="color" id="color" name="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="date">Date:</label></td>
+                            <td><input type="date" id="date" name="date"></td>
+                            <td><label for="time">Time:</label></td>
+                            <td><input type="time" id="time" name="time"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="month">Month:</label></td>
+                            <td><input type="month" id="month" name="month"></td>
+                            <td><label for="week">Week:</label></td>
+                            <td><input type="week" id="week" name="week"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend><font color="#4682b4">Feedback</font></legend>
+                    <table width="100%">
+                        <tr>
+                            <td><label for="range">Rate our service:</label></td>
+                            <td><input type="range" id="range" name="range" min="1" max="10"></td>
+                            <td><label for="checkbox">Subscribe:</label></td>
+                            <td><input type="checkbox" id="checkbox" name="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="radio1">Contact Preference:</label></td>
+                            <td><input type="radio" id="radio1" name="contactPref" value="email" checked>Email</td>
+                            <td><input type="radio" id="radio2" name="contactPref" value="phone">Phone</td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend><font color="#4682b4">Additional Information</font></legend>
+                    <table width="100%">
+                        <tr>
+                            <td><label for="search">Search:</label></td>
+                            <td><input type="search" id="search" name="search"></td>
+                            <td><label for="file">Upload File:</label></td>
+                            <td><input type="file" id="file" name="file"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="hidden">Hidden Input:</label></td>
+                            <td><input type="hidden" id="hidden" name="hidden" value="hiddenValue"></td>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea id="message" name="message" rows="4" cols="30" required></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend><font color="#4682b4">Miscellaneous</font></legend>
+                    <table width="100%">
+                        <tr>
+                            <td><label for="datetime-local">Date and Time:</label></td>
+                            <td><input type="datetime-local" id="datetime-local" name="datetime-local"></td>
+                            <td><label for="number">Number Input:</label></td>
+                            <td><input type="number" id="number" name="number" min="1" max="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel2">Alternate Telephone:</label></td>
+                            <td><input type="tel" id="tel2" name="tel2"></td>
+                            <td><label for="email2">Alternate Email:</label></td>
+                            <td><input type="email" id="email2" name="email2"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+       <footer style="background-color: #4682b4; color: white;">
+        <table width="100%" align="center">
+            <tr>
+                <td width="30%"><h1>Contact Us</h1>
+                    <font size="4">
+                    <p>Phone:+123456789</p>
+                    <p>Email:info@institute.com</p>
+                    
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </font> 
+                </td>
+                    <td width="40%">
+                        <h1>Download Our App</h1>
+                    <font size="5" color="white">
+                        <a href="#"><i class="fab fa-apple"></i>App Store</a>
+                        <br>
+                        <a href="#"><i class="fab fa-google-play"></i>Google Play</a>
+                    </font>     
+                    </td>
+                    <td align="">
+                        <h1>Our Courses</h1>
+                        <font size="4">
+                            <p>Web Development | Data Science|Marketing</p>
+                            <p>Digital Marketing | Accountancy | Project Management</p>
+                            <p>C++ | Java| Python</p>
+                            <p>Software Engineering |Business analysis | Data STructure</p>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3">
+                        <font size="5">
+                            <p>&copy;2024 Our Institute.All Rights Reserved.</p>
+                        </font>
+                    </td>
+                </tr>
+        </table>
+    </footer>
+</body>
+</html>
